@@ -22,5 +22,16 @@
 Tentukan Jalur Kritis :
 '''mermaid
   Flowchart LR;
-  
+  I((START)) -->|10| A((A))
+  A -->|4| D((D))
+  D -->|8| G((G))
+  G -->|6| J((I))
+  A -->|25| E((E))
+  E -->|10| F((F))
+  F -->|8| G((G)) 
+  I -->|6| B((B))
+  B -->|2| H((H))
+  I -->|17| C((C))
+  C -->|2| H
+  H -->|6| J
 '''
