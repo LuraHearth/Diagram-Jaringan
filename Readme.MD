@@ -22,7 +22,7 @@
 Tentukan Jalur Kritis :
 
 '''mermaid
-  Flowchart LR
+  flowchart LR
 
   I((START)) -->|10| A((A))
   A -->|4| D((D))
