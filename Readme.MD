@@ -15,13 +15,13 @@
 | H | B, C | 2 |  |  |  |  |
 | I | G, H | 6 |  |  |  |  |
 
-- Buattukan Diagram Jaringan
+- Buatkan Diagram Jaringan
 - Tentukan ES, EF, LS, EF
 - Tentukan Jalur Kritis
 
 Tentukan Jalur Kritis :
 
-'''mermaid
+```mermaid
   flowchart LR;
 
   I((START)) -->|10| A((A))
@@ -36,4 +36,4 @@ Tentukan Jalur Kritis :
   I -->|17| C((C))
   C -->|2| H
   H -->|6| J
-'''
+```
