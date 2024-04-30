@@ -20,8 +20,10 @@
 - Tentukan Jalur Kritis
 
 Tentukan Jalur Kritis :
+
 '''mermaid
-  Flowchart LR;
+  Flowchart LR
+
   I((START)) -->|10| A((A))
   A -->|4| D((D))
   D -->|8| G((G))
